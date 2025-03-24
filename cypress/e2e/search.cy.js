@@ -1,8 +1,8 @@
 import SearchPage from '../support/page-objects/SearchPage';
 
 describe('Product Search Tests with Login', () => {
+    let userData = {};
     beforeEach(() => {
-        let userData = {};
         SearchPage.visit();
         cy.fixture('userData').then((data) => {
             userData = data;
@@ -11,7 +11,7 @@ describe('Product Search Tests with Login', () => {
 
     it('Should find a product successfully', () => {
         SearchPage.login(userData.email, userData.password);
-        const productName = 'Iphone 14 Pro'; 
+        const productName = 'Samsung 60 polegadas'; 
         SearchPage.searchProduct(productName);
         SearchPage.verifyProductResults(productName);
     });
