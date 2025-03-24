@@ -1,6 +1,6 @@
 # Projeto de Testes Automatizados com Cypress
 
-Este repositório contém testes automatizados utilizando **Cypress** para validar funcionalidades de login, criação de usuários e produtos na API [Serverest](https://serverest.dev/).
+Este repositório contém uma suíte de testes automatizados desenvolvida com Cypress, abrangendo cenários de login, criação de usuários, produtos e buscas na API e no frontend da aplicação Serverest.
 
 Os testes end-to-end utilizam o padrão Page Objects para melhor organização e reutilização do código.
 
@@ -58,6 +58,14 @@ Cria um novo produto utilizando o token salvo.
 
 ### Signup
 - Cadastra um novo usuário com dados válidos
+
+## 🔗 Links
+
+- Frontend: https://front.serverest.dev/
+
+- Swagger API: https://serverest.dev/
+
+
 
 ## 📄 Licença
 Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo LICENSE.
