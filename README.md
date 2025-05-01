@@ -15,6 +15,9 @@ Os testes end-to-end utilizam o padrão Page Objects para melhor organização e
    ```
 2. Instale as dependências:
    ```sh
+   npm init -y
+   ```
+   ```sh
    npm install
    ```
 
